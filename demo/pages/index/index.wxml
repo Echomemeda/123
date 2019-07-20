@@ -1,0 +1,8 @@
+<view >
+<button bindtap="change" class="title">上海垃圾分类指南</button>
+<button bindtap="change" class="title1">北京垃圾分类指南</button>
+<button bindtap="change" class="title2">其他城市会陆续推出，敬请期待</button>
+</view>
+
+
+<image class="img" src='../../image/bg.png'></image>

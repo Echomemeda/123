@@ -1,0 +1,13 @@
+<view>
+<image src="../../image/title_shanghai.png"  class="title"/>
+</view>
+
+
+<view>
+
+<image src="../../image/recyclable.png" class="recyclable" />
+<image src="../../image/harmful.png" class="harmful"/>
+<image src="../../image/dry.png" class="dry"/>
+<image src="../../image/wet.png"  class="wet"/>
+
+</view>

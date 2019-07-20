@@ -1,0 +1,21 @@
+<view class="container">
+<view class="img_wrap">
+    <image src="{{ img }}" mode='aspectFit'/>
+</view>
+<view>
+<button bindtap="uploads_sh" class="shanghai">拍照/选图(上海标准)</button>
+<button bindtap="uploads_bj" class="beijing">拍照/选图(北京标准)</button>
+</view>
+
+  <view wx:if="{{result.length>0}}" class="table">
+      <view  class="tr bg-w">
+
+        <view class="th" style='background:{{table_color}}'>分类</view>
+      </view>
+    <view wx:for="{{result}}"wx:for-index="index" wx:for-item="item">
+     <view class="tr bg-g">
+        <view class="td">{{item.root}}</view>
+      </view>
+    </view>
+  </view>
+ </view>

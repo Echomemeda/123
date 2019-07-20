@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classification/classification",
+    "pages/logs/logs",
+    "pages/shanghai/shanghai"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1BA0E1",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1BA0E1",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/ai.png",
+        "selectedIconPath": "image/ai_HL.png",
+        "text": "垃圾分类简介"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "iconPath": "image/OCR.png",
+        "selectedIconPath": "image/OCR_HL.png",
+        "text": "垃圾拍照识别"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
